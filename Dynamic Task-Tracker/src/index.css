@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #33313b;
+}
+
+button {
+  outline: none;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  background-color: #33313b;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.view {
+  background-color: white;
+  border-radius: 5%;
+  min-height: 80%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 0;
+}
+
+header {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding: 10% 0 10% 0;
+}
+
+header button {
+  padding: 0 20px;
+  background-color: #834c69;
+  color: white;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.allTasks {
+  width: 80%;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 5px;
+}
+
+form button {
+  padding: 10px 0;
+  background-color: #834c69;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-left: #834c69 solid 3px;
+  box-shadow: 2px 2px rgb(237, 237, 237);
+}
+
+.task-details p {
+  font-size: 12px;
+}
+
+.task-close p {
+  color: red;
+  cursor: pointer;
+}
+
+.clear {
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.clear button {
+  width: 30%;
+  padding: 10px 5px;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .view {
+    width: 100%;
+    border-radius: 0px;
+    margin: 0;
+  }
+}
