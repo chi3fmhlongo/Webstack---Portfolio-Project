@@ -6,17 +6,22 @@ This project is setup on Visual Studio Code and hosted on firebase. The aim of t
 
 I use React features such as props and hooks (specifically State) to allow a user to add and remove tasks as they please . Jsx is used which allows my html to co-exist with javascripts and React code. This makes the application a bit more flexible while building the UI.
 
-# How to run the Project
+# How to Run the Project
 
-Installation
-Fork this repo, click on the fork icon in the top-right corner to get started
+## Installation
 
-Clone the repo, you can use the following the command:
+1. **Fork this repository**  
+   Click on the **Fork** icon in the top-right corner to get started.
 
-git clone https://github.com/<your-github-username>/Dynamic-Task-Manager
+2. **Clone the repository**  
+   Use the following command to clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/<your-github-username>/Dynamic-Task-Manager
+
 Navigate to project directory
 
 cd Dynamic-Task-Manager
+
 Install dependencies
 
 npm install
@@ -26,5 +31,4 @@ Start server
 
 npm start
 OR
-
 npm run dev
