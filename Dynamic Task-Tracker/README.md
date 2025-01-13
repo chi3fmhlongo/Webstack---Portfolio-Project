@@ -16,11 +16,11 @@ I use React features such as props and hooks (specifically State) to allow a use
 2. **Clone the repository**  
    Use the following command to clone the repository to your local machine:
    ```bash
-   git clone https://github.com/<your-github-username>/Dynamic-Task-Manager
+   git clone https://github.com/<your-github-username>/Dynamic-Task-Tracker
 
 Navigate to project directory
 
-cd Dynamic-Task-Manager
+cd Dynamic-Task-Tracker
 
 Install dependencies
 
